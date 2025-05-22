@@ -1,7 +1,8 @@
-from ui.login_screen import LoginScreen
+# main.py
 import tkinter as tk
+from ui.login_screen import LoginScreen
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = LoginScreen(root)
+    LoginScreen(root)
     root.mainloop()
